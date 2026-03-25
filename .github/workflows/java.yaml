@@ -22,4 +22,4 @@ jobs:
           -Dsonar.projectKey=narasimhakasimkota1998-cloud_spring-petclinic
           -Dsonar.organization=narasimhakasimkota1998-cloud \
           -Dsonar.host.url=https://sonarcloud.io/ \
-          -Dsonar.login=${{secrets.SONAR_TOKEN}} \
+          -Dsonar.login= ${{secrets.SONAR_TOKEN}} \
