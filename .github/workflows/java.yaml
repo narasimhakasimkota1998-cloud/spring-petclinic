@@ -19,7 +19,7 @@ jobs:
       - name: build and analyze
         run: |
           mvn package sonar:sonar \
-          -Dsonar.projectKey=narasimhakasimkota1998-cloud_spring-petclinic
+          -Dsonar.projectKey=narasimhakasimkota1998-cloud_spring-petclinic \
           -Dsonar.organization=narasimhakasimkota1998-cloud \
-          -Dsonar.host.url=https://sonarcloud.io/ \
+          -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=${{secrets.SONAR_TOKEN}} 
